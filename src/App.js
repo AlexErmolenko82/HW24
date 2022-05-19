@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
 import { useState } from "react";
 import Title from "./components/Title";
 
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   const [open, isOpenedTitle] = useState(false);
